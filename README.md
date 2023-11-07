@@ -15,9 +15,9 @@ Here is an example of V7RC Payload, i.e.
 `SRV1500150015001500#`
 
 1. Length: must be 20 bytes. (Maybe it would be extend to unlimited in future)
-2. First 3 bytes is COMMAND string: from the example. you can see 'SRV' at first 3 bytes and that is a COMMAND and meant to CONTROL PWM motor channels.
-3. The END signature is '#'. From the example, you can see the '#' in the end of payload. It is easy for you to specify each of paylods.
-4. There are 16 bytes for data bytes. most of them are ASCII data, some command use bunary data (just like SS8 command).
+2. First 3 bytes is COMMAND string: from the example. you can see `SRV` at first 3 bytes and that is a COMMAND and meant to CONTROL PWM motor channels.
+3. The END signature is `#`. From the example, you can see the `#` in the end of payload. It is easy for you to specify each of paylods.
+4. There are 16 bytes for data bytes. most of them are ASCII data, some command use bunary data (just like `SS8` command).
 
 
 
